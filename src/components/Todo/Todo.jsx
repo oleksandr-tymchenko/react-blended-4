@@ -6,6 +6,7 @@ import { deleteTodo } from 'redux/todoslices';
 
 export const Todo = ({ text, counter, id }) => {
   const dispatch = useDispatch();
+
   return (
     <>
       <TodoWrapper>
